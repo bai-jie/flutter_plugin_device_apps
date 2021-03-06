@@ -1,4 +1,4 @@
-name: device_apps
+name: device_apps_null_safety
 description: Plugin to list applications installed on an Android device (iOS is not supported)
 version: 2.0.0
 homepage: https://github.com/g123k/flutter_plugin_device_apps

@@ -1,4 +1,4 @@
-import 'package:device_apps/device_apps.dart';
+import 'package:device_apps_null_safety/device_apps_null_safety.dart';
 import 'package:flutter/material.dart';
 
 void main() => runApp(MaterialApp(home: ListAppsPages()));
