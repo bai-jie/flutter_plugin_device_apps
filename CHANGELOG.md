@@ -1,6 +1,12 @@
+# Changelog
+
+## [2.0.0] - 04th March 2021
+
+* Support null-safety
+
 ## [1.2.0] - 09th August 2020
 
-* Support for Android 11. 
+* Support for Android 11.
 
 Please read the README file.
 
