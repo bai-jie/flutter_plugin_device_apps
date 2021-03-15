@@ -36,12 +36,12 @@ class DeviceApps {
         'include_app_icons': includeAppIcons,
         'only_apps_with_launch_intent': onlyAppsWithLaunchIntent
       });
-      if (apps is Iterable<Object>) {
+      if (apps is Iterable<Object?>) {
         List<Application> list = <Application>[];
-        for (Object app in apps) {
-          if (app is Map<Object, Object>) {
+        for (Object? app in apps) {
+          if (app is Map<Object?, Object?>) {
             try {
-              list.add(Application._(app));
+              list.add(Application._(Map<Object, Object>.from(app)));
             } catch (e) {
               if (e is AssertionError) {
                 print('[DeviceApps] Unable to add the following app: $app');
